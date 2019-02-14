@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-family: 'Thasadith';
+    font-size: 25pt;
+}
+
+#grid {
+    display: grid;
+    border: 1px solid black;
+}
+.marked {
+    background-color: white;
+}
+.dead {
+    background-color: black;
+    border-right: 1px solid rgba(100,100,100,50);
+    border-top: 1px solid rgba(100,100,100,50);
+}
